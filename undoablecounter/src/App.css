@@ -1,0 +1,41 @@
+.head {
+  text-align: center;
+}
+.main,
+.undo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputbox {
+  padding: 10px;
+  text-align: center;
+  font-size: 19px;
+  margin: 0 30px;
+}
+.historybox {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.history {
+  padding: 10px 0px;
+  margin: 100px auto;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid gray;
+  overflow-y: scroll;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+}
+.redo {
+  background-color: aquamarine;
+  margin: 0 10px;
+}
