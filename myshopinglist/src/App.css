@@ -1,0 +1,71 @@
+.app {
+  text-align: center;
+}
+input {
+  width: 220px;
+  height: 25px;
+  padding: 5px;
+  font-size: 20px;
+  outline: none;
+  font-weight: bold;
+}
+.shoping-list {
+  width: 220px;
+  margin: 10px auto;
+  height: 150px;
+  background-color: lightgray;
+  overflow-y: auto;
+}
+.product {
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.product:hover {
+  background-color: aquamarine;
+}
+.bucket-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: auto;
+  margin: 10px auto;
+  padding: 3px;
+  width: 220px;
+  background-color: lightseagreen;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+}
+.✓,
+.X {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 20px;
+  color: black;
+  font-weight: bold;
+}
+.data {
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+
+  color: black;
+}
+.X:hover {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.✓:hover {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.strik {
+  text-decoration: line-through;
+  color: lightgray;
+}
