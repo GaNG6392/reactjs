@@ -1,0 +1,15 @@
+{
+  "name": "shopingcard",
+  "version": "1.0.0",
+  "description": "getting product and add to list",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ramm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
