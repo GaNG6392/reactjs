@@ -29,7 +29,7 @@ app.get('/api/products', (req, res) => {
       name: 'table metal',
       price: 300,
       image:
-        'https://images.pexels.com/photos/5225292/pexels-photo-5225292.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://images.pexels.com/photos/6858631/pexels-photo-6858631.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
       id: 5,
@@ -37,6 +37,20 @@ app.get('/api/products', (req, res) => {
       price: 150,
       image:
         'https://images.pexels.com/photos/18087307/pexels-photo-18087307/free-photo-of-top-view-of-a-colorful-salad-a-bottle-of-wine-and-a-menu-card-on-a-table-in-a-restaurant.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+      id: 6,
+      name: 'table metal2',
+      price: 150,
+      image:
+        'https://images.pexels.com/photos/4048680/pexels-photo-4048680.jpeg?auto=compress&cs=tinysrgb&w=600',
+    },
+    {
+      id: 7,
+      name: 'table metal3',
+      price: 150,
+      image:
+        'https://images.pexels.com/photos/5095947/pexels-photo-5095947.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
   ];
 
@@ -47,9 +61,11 @@ app.get('/api/products', (req, res) => {
     res.send(filterProduct);
     return;
   }
-  setTimeout(() => {
-    res.send(products);
-  }, 3000);
+
+  res.send(products);
+  // setTimeout(() => {
+  //   res.send(products);
+  // }, 1000);
 });
 
 const port = process.env.PORT || 3000;
